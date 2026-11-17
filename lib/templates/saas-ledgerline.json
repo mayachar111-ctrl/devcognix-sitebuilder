@@ -1,0 +1,641 @@
+{
+  "name": "Ledgerline",
+  "description": "GST-ready invoicing, payment links and cash-flow forecasts for small businesses.",
+  "theme": {
+    "palette": {
+      "primary": "#5048E5",
+      "accent": "#10B6A0",
+      "background": "#FBFBFE",
+      "surface": "#F2F2FA",
+      "text": "#12122A",
+      "muted": "#5D5E78",
+      "border": "#E3E3F0"
+    },
+    "fontPair": "geometric",
+    "radius": "lg",
+    "style": "soft"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Ledgerline — invoicing that gets you paid faster",
+      "sections": [
+        {
+          "id": "navbar-1",
+          "type": "navbar",
+          "props": {
+            "brand": "Ledgerline",
+            "links": [
+              {
+                "label": "Product",
+                "href": "#features"
+              },
+              {
+                "label": "Pricing",
+                "href": "#pricing"
+              },
+              {
+                "label": "Customers",
+                "href": "#testimonials"
+              },
+              {
+                "label": "Blog",
+                "href": "/blog"
+              }
+            ],
+            "cta": {
+              "label": "Start free",
+              "href": "#pricing"
+            },
+            "sticky": true
+          }
+        },
+        {
+          "id": "hero-1",
+          "type": "hero-gradient",
+          "props": {
+            "badge": "New: UPI AutoPay reminders",
+            "headline": "Send GST invoices in seconds and",
+            "highlight": "get paid twice as fast",
+            "subheadline": "Ledgerline turns invoices, payment links and follow-ups into one calm workflow — so you spend Fridays growing, not chasing payments.",
+            "primaryCta": {
+              "label": "Start free — no card",
+              "href": "#pricing"
+            },
+            "secondaryCta": {
+              "label": "See a 2-min tour",
+              "href": "#video"
+            },
+            "note": "Free for your first 20 invoices every month"
+          }
+        },
+        {
+          "id": "logos-1",
+          "type": "logo-strip",
+          "props": {
+            "title": "Running the books at 4,000+ growing businesses",
+            "logos": [
+              "Chaiwala Co.",
+              "Tessera Labs",
+              "Indigo Threads",
+              "Kiranakart",
+              "Monsoon Media",
+              "Pivotal Freight",
+              "Saffron Studio"
+            ],
+            "marquee": true
+          }
+        },
+        {
+          "id": "features-1",
+          "type": "features-grid",
+          "props": {
+            "eyebrow": "Why Ledgerline",
+            "title": "The money side of your business, finally sorted",
+            "subtitle": "Everything a 2–50 person team needs to bill, collect and plan — without hiring an accountant on day one.",
+            "columns": 3,
+            "items": [
+              {
+                "icon": "bolt",
+                "title": "Invoices in 30 seconds",
+                "description": "Auto-filled GSTIN, HSN codes and tax splits. Send by email or WhatsApp."
+              },
+              {
+                "icon": "wallet",
+                "title": "Payment links built in",
+                "description": "Every invoice carries a UPI, card and net-banking link. Money lands faster."
+              },
+              {
+                "icon": "clock",
+                "title": "Polite auto follow-ups",
+                "description": "Friendly reminders go out on your schedule, so you never have to nag."
+              },
+              {
+                "icon": "chart",
+                "title": "Cash-flow forecast",
+                "description": "See the next 90 days of money in and out, updated every morning."
+              },
+              {
+                "icon": "shield",
+                "title": "Audit-ready records",
+                "description": "GSTR-1 exports and a clean trail your CA will thank you for."
+              },
+              {
+                "icon": "users",
+                "title": "Made for teams",
+                "description": "Roles for founders, sales and finance — with approvals where it matters."
+              }
+            ]
+          }
+        },
+        {
+          "id": "rows-1",
+          "type": "feature-rows",
+          "props": {
+            "eyebrow": "How teams use it",
+            "title": "From quote to cash, in one place",
+            "subtitle": "",
+            "rows": [
+              {
+                "title": "Quote, convert, invoice",
+                "description": "Turn an approved estimate into a tax invoice with one click. Line items, discounts and terms carry over.",
+                "bullets": [
+                  "Branded templates",
+                  "Multi-currency for exports",
+                  "Recurring invoices"
+                ],
+                "image": {
+                  "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1200&h=900&q=75&auto=format&fit=crop",
+                  "alt": "Analytics dashboard on a laptop"
+                }
+              },
+              {
+                "title": "Know who owes what",
+                "description": "An ageing view shows overdue invoices at a glance, ranked by amount and risk.",
+                "bullets": [
+                  "Smart reminder timing",
+                  "Partial payments",
+                  "Customer statements"
+                ],
+                "image": {
+                  "src": "https://images.unsplash.com/photo-1551434678-e076c223a692?w=1200&h=900&q=75&auto=format&fit=crop",
+                  "alt": "Team reviewing numbers together"
+                }
+              },
+              {
+                "title": "Plan the next quarter",
+                "description": "Forecast cash with real invoices and expected expenses, then test what-if scenarios.",
+                "bullets": [
+                  "90-day runway view",
+                  "Expense categories",
+                  "Export to Excel"
+                ],
+                "image": {
+                  "src": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=1200&h=900&q=75&auto=format&fit=crop",
+                  "alt": "Laptop on a desk at night"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "stats-1",
+          "type": "stats",
+          "props": {
+            "title": "",
+            "tinted": true,
+            "items": [
+              {
+                "value": 4000,
+                "prefix": "",
+                "suffix": "+",
+                "label": "Businesses"
+              },
+              {
+                "value": 2.1,
+                "prefix": "",
+                "suffix": "×",
+                "label": "Faster payments"
+              },
+              {
+                "value": 850,
+                "prefix": "₹",
+                "suffix": " Cr",
+                "label": "Invoiced yearly"
+              },
+              {
+                "value": 4.8,
+                "prefix": "",
+                "suffix": "/5",
+                "label": "Average rating"
+              }
+            ]
+          }
+        },
+        {
+          "id": "video-1",
+          "type": "video",
+          "props": {
+            "eyebrow": "Product tour",
+            "title": "See a month of billing in two minutes",
+            "subtitle": "",
+            "poster": {
+              "src": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1800&h=1000&q=75&auto=format&fit=crop",
+              "alt": "Team meeting around a table"
+            },
+            "caption": "Demo video placeholder — swap in your own embed URL."
+          }
+        },
+        {
+          "id": "testimonials-1",
+          "type": "testimonials",
+          "props": {
+            "eyebrow": "Customers",
+            "title": "Teams that stopped chasing payments",
+            "subtitle": "",
+            "items": [
+              {
+                "quote": "Our average collection time dropped from 41 days to 18. The reminders do the awkward part for us.",
+                "name": "Priya Nair",
+                "role": "Co-founder, Monsoon Media",
+                "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=160&h=160&q=75&auto=format&fit=crop",
+                "rating": 5
+              },
+              {
+                "quote": "Filing GSTR-1 used to eat a weekend. Now my CA just downloads the export.",
+                "name": "Rohan Desai",
+                "role": "Owner, Pivotal Freight",
+                "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=160&h=160&q=75&auto=format&fit=crop",
+                "rating": 5
+              },
+              {
+                "quote": "The cash-flow view is the first thing I open every morning. It changed how we hire.",
+                "name": "Fatima Sheikh",
+                "role": "CEO, Tessera Labs",
+                "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=160&h=160&q=75&auto=format&fit=crop",
+                "rating": 5
+              },
+              {
+                "quote": "Clients pay from the WhatsApp link before I've even hung up the call.",
+                "name": "Vikram Iyer",
+                "role": "Freelance designer",
+                "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&h=160&q=75&auto=format&fit=crop",
+                "rating": 4
+              },
+              {
+                "quote": "Switched from spreadsheets in an afternoon. Support answered every question within minutes.",
+                "name": "Ananya Rao",
+                "role": "Ops lead, Indigo Threads",
+                "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=160&h=160&q=75&auto=format&fit=crop",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "pricing-1",
+          "type": "pricing",
+          "props": {
+            "eyebrow": "Pricing",
+            "title": "Fair pricing, in rupees",
+            "subtitle": "All plans include unlimited customers and GST-compliant invoices.",
+            "currency": "₹",
+            "billingToggle": true,
+            "yearlyNote": "2 months free",
+            "plans": [
+              {
+                "name": "Solo",
+                "priceMonthly": 0,
+                "priceYearly": 0,
+                "period": "/month",
+                "description": "Freelancers getting started.",
+                "features": [
+                  "20 invoices / month",
+                  "UPI payment links",
+                  "Email reminders"
+                ],
+                "cta": {
+                  "label": "Start free",
+                  "href": "#"
+                },
+                "highlighted": false
+              },
+              {
+                "name": "Growth",
+                "priceMonthly": 799,
+                "priceYearly": 666,
+                "period": "/month",
+                "description": "Small teams that bill weekly.",
+                "features": [
+                  "Unlimited invoices",
+                  "WhatsApp delivery",
+                  "Cash-flow forecast",
+                  "3 team seats",
+                  "GSTR-1 export"
+                ],
+                "cta": {
+                  "label": "Try Growth free",
+                  "href": "#"
+                },
+                "highlighted": true
+              },
+              {
+                "name": "Scale",
+                "priceMonthly": 2499,
+                "priceYearly": 2083,
+                "period": "/month",
+                "description": "Finance teams and multi-branch.",
+                "features": [
+                  "Everything in Growth",
+                  "Approvals & roles",
+                  "Multi-GSTIN",
+                  "Priority support"
+                ],
+                "cta": {
+                  "label": "Talk to us",
+                  "href": "#"
+                },
+                "highlighted": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "faq-1",
+          "type": "faq",
+          "props": {
+            "eyebrow": "FAQ",
+            "title": "Good questions",
+            "subtitle": "Still curious? Our team replies on chat within minutes, 9am–9pm IST.",
+            "items": [
+              {
+                "question": "Is Ledgerline GST compliant?",
+                "answer": "Yes. Invoices include GSTIN, HSN/SAC codes and CGST/SGST/IGST splits, and you can export GSTR-1 ready data."
+              },
+              {
+                "question": "Do you charge a fee on payments?",
+                "answer": "Payment-gateway fees are passed through at cost. Ledgerline itself adds nothing on top."
+              },
+              {
+                "question": "Can I import my existing customers?",
+                "answer": "Upload a CSV or connect your Tally export — most teams are set up in under 15 minutes."
+              },
+              {
+                "question": "What happens if I cancel?",
+                "answer": "You keep read-only access to every invoice and can export all your data anytime."
+              }
+            ]
+          }
+        },
+        {
+          "id": "cta-1",
+          "type": "cta-banner",
+          "props": {
+            "title": "Your next invoice could be paid by tonight",
+            "subtitle": "Start free in two minutes. Upgrade only when Ledgerline is paying for itself.",
+            "primaryCta": {
+              "label": "Create free account",
+              "href": "#pricing"
+            },
+            "secondaryCta": {
+              "label": "Book a demo",
+              "href": "#"
+            },
+            "variant": "gradient"
+          }
+        },
+        {
+          "id": "footer-1",
+          "type": "footer",
+          "props": {
+            "brand": "Ledgerline",
+            "tagline": "GST-ready invoicing and cash-flow clarity for India's small teams.",
+            "columns": [
+              {
+                "title": "Product",
+                "links": [
+                  {
+                    "label": "Invoicing",
+                    "href": "#features"
+                  },
+                  {
+                    "label": "Payment links",
+                    "href": "#features"
+                  },
+                  {
+                    "label": "Reports",
+                    "href": "#features"
+                  },
+                  {
+                    "label": "Pricing",
+                    "href": "#pricing"
+                  }
+                ]
+              },
+              {
+                "title": "Company",
+                "links": [
+                  {
+                    "label": "About",
+                    "href": "#"
+                  },
+                  {
+                    "label": "Careers",
+                    "href": "#"
+                  },
+                  {
+                    "label": "Blog",
+                    "href": "/blog"
+                  }
+                ]
+              },
+              {
+                "title": "Support",
+                "links": [
+                  {
+                    "label": "Help centre",
+                    "href": "#"
+                  },
+                  {
+                    "label": "Status",
+                    "href": "#"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "#"
+                  }
+                ]
+              }
+            ],
+            "socials": [
+              {
+                "platform": "linkedin",
+                "href": "#"
+              },
+              {
+                "platform": "x",
+                "href": "#"
+              },
+              {
+                "platform": "youtube",
+                "href": "#"
+              }
+            ],
+            "copyright": "© 2026 Ledgerline Technologies Pvt. Ltd."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "blog",
+      "title": "Ledgerline Blog",
+      "sections": [
+        {
+          "id": "navbar-1",
+          "type": "navbar",
+          "props": {
+            "brand": "Ledgerline",
+            "links": [
+              {
+                "label": "Product",
+                "href": "#features"
+              },
+              {
+                "label": "Pricing",
+                "href": "#pricing"
+              },
+              {
+                "label": "Customers",
+                "href": "#testimonials"
+              },
+              {
+                "label": "Blog",
+                "href": "/blog"
+              }
+            ],
+            "cta": {
+              "label": "Start free",
+              "href": "#pricing"
+            },
+            "sticky": true
+          }
+        },
+        {
+          "id": "blog-1",
+          "type": "blog-cards",
+          "props": {
+            "eyebrow": "Blog",
+            "title": "Notes on getting paid",
+            "subtitle": "Practical guides for founders and finance teams.",
+            "posts": [
+              {
+                "title": "A plain-English guide to GST invoices",
+                "excerpt": "What must be on every invoice, and the mistakes that trigger notices.",
+                "image": {
+                  "src": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=900&h=600&q=75&auto=format&fit=crop",
+                  "alt": "Calculator and paperwork"
+                },
+                "category": "Guides",
+                "date": "04 Nov 2026",
+                "href": "#"
+              },
+              {
+                "title": "The reminder schedule that halves late payments",
+                "excerpt": "We studied 200,000 invoices to find the timing that works.",
+                "image": {
+                  "src": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?w=900&h=600&q=75&auto=format&fit=crop",
+                  "alt": "Bright office window"
+                },
+                "category": "Research",
+                "date": "22 Oct 2026",
+                "href": "#"
+              },
+              {
+                "title": "Forecasting cash when revenue is lumpy",
+                "excerpt": "A simple 90-day model any small business can keep up to date.",
+                "image": {
+                  "src": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=900&h=600&q=75&auto=format&fit=crop",
+                  "alt": "Charts on a laptop"
+                },
+                "category": "Finance",
+                "date": "09 Oct 2026",
+                "href": "#"
+              }
+            ]
+          }
+        },
+        {
+          "id": "newsletter-1",
+          "type": "newsletter",
+          "props": {
+            "title": "One useful money email a month",
+            "subtitle": "Templates, checklists and GST updates — written for humans.",
+            "placeholder": "you@company.in",
+            "buttonLabel": "Subscribe",
+            "note": "Join 9,000+ founders. Unsubscribe anytime."
+          }
+        },
+        {
+          "id": "footer-1",
+          "type": "footer",
+          "props": {
+            "brand": "Ledgerline",
+            "tagline": "GST-ready invoicing and cash-flow clarity for India's small teams.",
+            "columns": [
+              {
+                "title": "Product",
+                "links": [
+                  {
+                    "label": "Invoicing",
+                    "href": "#features"
+                  },
+                  {
+                    "label": "Payment links",
+                    "href": "#features"
+                  },
+                  {
+                    "label": "Reports",
+                    "href": "#features"
+                  },
+                  {
+                    "label": "Pricing",
+                    "href": "#pricing"
+                  }
+                ]
+              },
+              {
+                "title": "Company",
+                "links": [
+                  {
+                    "label": "About",
+                    "href": "#"
+                  },
+                  {
+                    "label": "Careers",
+                    "href": "#"
+                  },
+                  {
+                    "label": "Blog",
+                    "href": "/blog"
+                  }
+                ]
+              },
+              {
+                "title": "Support",
+                "links": [
+                  {
+                    "label": "Help centre",
+                    "href": "#"
+                  },
+                  {
+                    "label": "Status",
+                    "href": "#"
+                  },
+                  {
+                    "label": "Contact",
+                    "href": "#"
+                  }
+                ]
+              }
+            ],
+            "socials": [
+              {
+                "platform": "linkedin",
+                "href": "#"
+              },
+              {
+                "platform": "x",
+                "href": "#"
+              },
+              {
+                "platform": "youtube",
+                "href": "#"
+              }
+            ],
+            "copyright": "© 2026 Ledgerline Technologies Pvt. Ltd."
+          }
+        }
+      ]
+    }
+  ]
+}

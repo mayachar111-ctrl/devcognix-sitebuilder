@@ -1,0 +1,316 @@
+{
+  "name": "Kaapi & Crumb",
+  "description": "Specialty filter coffee and slow-baked breads in Indiranagar, Bengaluru.",
+  "theme": {
+    "palette": {
+      "primary": "#A94A24",
+      "accent": "#D9952B",
+      "background": "#FBF6EF",
+      "surface": "#F3E8DA",
+      "text": "#2A1C13",
+      "muted": "#76604F",
+      "border": "#E5D5C2"
+    },
+    "fontPair": "editorial",
+    "radius": "md",
+    "style": "minimal"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Kaapi & Crumb — coffee and bakes, Indiranagar",
+      "sections": [
+        {
+          "id": "navbar-1",
+          "type": "navbar",
+          "props": {
+            "brand": "Kaapi & Crumb",
+            "links": [
+              {
+                "label": "Menu",
+                "href": "#features"
+              },
+              {
+                "label": "Our story",
+                "href": "#story"
+              },
+              {
+                "label": "Gallery",
+                "href": "#gallery"
+              },
+              {
+                "label": "Visit",
+                "href": "#contact"
+              }
+            ],
+            "cta": {
+              "label": "Reserve a table",
+              "href": "#contact"
+            },
+            "sticky": true
+          }
+        },
+        {
+          "id": "hero-1",
+          "type": "hero-split",
+          "props": {
+            "eyebrow": "Indiranagar · Since 2019",
+            "headline": "Slow coffee, warm bread, long conversations.",
+            "subheadline": "Single-estate beans from Chikmagalur roasted every Tuesday, and sourdough that's been fermenting since yesterday. Pull up a chair.",
+            "bullets": [
+              "Filter kaapi brewed the traditional way",
+              "Breads and bakes from our own oven",
+              "Laptop-friendly mornings, cosy evenings"
+            ],
+            "primaryCta": {
+              "label": "See the menu",
+              "href": "#features"
+            },
+            "secondaryCta": {
+              "label": "Find us",
+              "href": "#contact"
+            },
+            "image": {
+              "src": "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=1200&h=1400&q=75&auto=format&fit=crop",
+              "alt": "Latte with leaf art on a wooden table"
+            },
+            "imageSide": "right",
+            "badge": "4.8 ★ from 2,300 Google reviews"
+          }
+        },
+        {
+          "id": "features-1",
+          "type": "features-grid",
+          "props": {
+            "eyebrow": "What we're known for",
+            "title": "Small menu, made with care",
+            "subtitle": "Everything is made in-house, every day, in small batches.",
+            "columns": 4,
+            "items": [
+              {
+                "icon": "cup",
+                "title": "Filter kaapi",
+                "description": "Decoction brewed in brass, finished with frothy milk. ₹90."
+              },
+              {
+                "icon": "leaf",
+                "title": "Pour-overs",
+                "description": "Rotating single estates, brewed to order on V60 or Chemex."
+              },
+              {
+                "icon": "heart",
+                "title": "Sourdough & bakes",
+                "description": "Country loaf, cardamom buns and a weekend croissant drop."
+              },
+              {
+                "icon": "clock",
+                "title": "All-day breakfast",
+                "description": "Akki roti, shakshuka and masala eggs on toast until 4pm."
+              }
+            ]
+          }
+        },
+        {
+          "id": "rows-1",
+          "type": "feature-rows",
+          "props": {
+            "eyebrow": "Our story",
+            "title": "From one estate to your cup",
+            "subtitle": "",
+            "rows": [
+              {
+                "title": "We know our farmers by name",
+                "description": "We buy directly from three family estates in the Baba Budangiri hills and pay well above market rates, every harvest.",
+                "bullets": [
+                  "Direct trade since day one",
+                  "Roasted fresh every week"
+                ],
+                "image": {
+                  "src": "https://images.unsplash.com/photo-1442512595331-e89e73853f31?w=1200&h=900&q=75&auto=format&fit=crop",
+                  "alt": "Pour-over coffee being brewed"
+                }
+              },
+              {
+                "title": "An oven that never really cools",
+                "description": "Our bakers start at 4am so the first loaves come out just as the shutters go up.",
+                "bullets": [
+                  "48-hour sourdough",
+                  "Butter from a Mysuru dairy"
+                ],
+                "image": {
+                  "src": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1200&h=900&q=75&auto=format&fit=crop",
+                  "alt": "Plated food at a dinner table"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "id": "gallery-1",
+          "type": "gallery",
+          "props": {
+            "eyebrow": "Gallery",
+            "title": "A peek inside",
+            "subtitle": "",
+            "layout": "masonry",
+            "images": [
+              {
+                "src": "https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&h=1000&q=75&auto=format&fit=crop",
+                "alt": "Sunlit café interior with plants"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=800&h=600&q=75&auto=format&fit=crop",
+                "alt": "Friends clinking coffee cups"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1511920170033-f8396924c348?w=800&h=800&q=75&auto=format&fit=crop",
+                "alt": "Freshly ground espresso"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?w=800&h=600&q=75&auto=format&fit=crop",
+                "alt": "Neon café sign above the counter"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1559925393-8be0ec4767c8?w=800&h=1000&q=75&auto=format&fit=crop",
+                "alt": "Outdoor seating on the street"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1540189549336-e6e99c3679fe?w=800&h=700&q=75&auto=format&fit=crop",
+                "alt": "Fresh salad bowl"
+              }
+            ]
+          }
+        },
+        {
+          "id": "testimonials-1",
+          "type": "testimonials",
+          "props": {
+            "eyebrow": "Kind words",
+            "title": "Regulars say it best",
+            "subtitle": "",
+            "items": [
+              {
+                "quote": "The filter kaapi tastes exactly like my grandmother's in Kumbakonam. I come twice a week just for that.",
+                "name": "Lakshmi S.",
+                "role": "Regular since 2020",
+                "avatar": "",
+                "rating": 5
+              },
+              {
+                "quote": "Best cardamom bun in the city, and they let me work for hours without a single look.",
+                "name": "Aditya K.",
+                "role": "Product designer",
+                "avatar": "",
+                "rating": 5
+              },
+              {
+                "quote": "We had our small engagement brunch here. The staff made it feel like family.",
+                "name": "Neha & Rahul",
+                "role": "Celebrated here",
+                "avatar": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "contact-1",
+          "type": "contact",
+          "props": {
+            "eyebrow": "Visit us",
+            "title": "Come say hello",
+            "subtitle": "Walk-ins always welcome. For groups of 6+ or private events, send us a note.",
+            "email": "hello@kaapiandcrumb.in",
+            "phone": "+91 80 4123 9876",
+            "address": "1st Floor, 12th Main Road, HAL 2nd Stage, Indiranagar, Bengaluru 560038",
+            "hours": "Every day, 7:30am – 10:30pm",
+            "submitLabel": "Send request",
+            "successMessage": "Thank you! We'll confirm on WhatsApp within the hour.",
+            "showServiceField": true,
+            "services": [
+              "Table for 6+",
+              "Private event",
+              "Bulk coffee order",
+              "Something else"
+            ]
+          }
+        },
+        {
+          "id": "newsletter-1",
+          "type": "newsletter",
+          "props": {
+            "title": "Hear about the weekend bake first",
+            "subtitle": "One short note on Thursdays with the croissant flavour, new beans and events.",
+            "placeholder": "you@email.com",
+            "buttonLabel": "Count me in",
+            "note": "We never share your email."
+          }
+        },
+        {
+          "id": "footer-1",
+          "type": "footer",
+          "props": {
+            "brand": "Kaapi & Crumb",
+            "tagline": "Slow coffee and warm bread in the heart of Indiranagar.",
+            "columns": [
+              {
+                "title": "Visit",
+                "links": [
+                  {
+                    "label": "Directions",
+                    "href": "#contact"
+                  },
+                  {
+                    "label": "Hours",
+                    "href": "#contact"
+                  }
+                ]
+              },
+              {
+                "title": "Eat & drink",
+                "links": [
+                  {
+                    "label": "Menu",
+                    "href": "#features"
+                  },
+                  {
+                    "label": "Bakery",
+                    "href": "#story"
+                  }
+                ]
+              },
+              {
+                "title": "Say hi",
+                "links": [
+                  {
+                    "label": "Events",
+                    "href": "#contact"
+                  },
+                  {
+                    "label": "Careers",
+                    "href": "#"
+                  }
+                ]
+              }
+            ],
+            "socials": [
+              {
+                "platform": "instagram",
+                "href": "#"
+              },
+              {
+                "platform": "whatsapp",
+                "href": "#"
+              },
+              {
+                "platform": "facebook",
+                "href": "#"
+              }
+            ],
+            "copyright": "© 2026 Kaapi & Crumb. Made with love in Bengaluru."
+          }
+        }
+      ]
+    }
+  ]
+}

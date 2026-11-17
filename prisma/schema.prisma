@@ -1,0 +1,54 @@
+// Dev: SQLite. Prod: change provider to "postgresql" and DATABASE_URL.
+// Kept Postgres-compatible: no SQLite-only types; enums are plain strings
+// (Prisma's SQLite connector has no enums), JSON stored as String for now
+// (switch `data` columns to `Json` / jsonb when moving to Postgres).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id        String         @id @default(cuid())
+  email     String         @unique
+  name      String?
+  plan      String         @default("free") // free | starter | pro | agency
+  region    String         @default("IN")   // IN | GLOBAL (pricing region)
+  createdAt DateTime       @default(now())
+  updatedAt DateTime       @updatedAt
+  sites     Site[]
+  ledger    CreditLedger[]
+}
+
+model Site {
+  id          String    @id @default(cuid())
+  ownerId     String?
+  owner       User?     @relation(fields: [ownerId], references: [id], onDelete: Cascade)
+  name        String
+  slug        String    @unique
+  templateId  String?
+  data        String    // SiteSchema JSON (validated by lib/schema.ts)
+  status      String    @default("draft") // draft | published
+  publishedAt DateTime?
+  createdAt   DateTime  @default(now())
+  updatedAt   DateTime  @updatedAt
+
+  @@index([ownerId])
+}
+
+model CreditLedger {
+  id        String   @id @default(cuid())
+  userId    String
+  user      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  delta     Int      // +grant / -spend
+  reason    String   // plan_grant | ai_generate | ai_edit | topup | refund
+  siteId    String?
+  meta      String?  // JSON: model, tokens, cost
+  createdAt DateTime @default(now())
+
+  @@index([userId, createdAt])
+}

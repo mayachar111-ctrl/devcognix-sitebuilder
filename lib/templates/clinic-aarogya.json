@@ -1,0 +1,441 @@
+{
+  "name": "Aarogya Physio & Wellness",
+  "description": "Physiotherapy, sports rehab and pain management clinic in Kothrud, Pune.",
+  "theme": {
+    "palette": {
+      "primary": "#0E7C68",
+      "accent": "#F2A531",
+      "background": "#FFFFFF",
+      "surface": "#EFF7F5",
+      "text": "#0F2724",
+      "muted": "#4D6662",
+      "border": "#D8E9E5"
+    },
+    "fontPair": "friendly",
+    "radius": "xl",
+    "style": "soft"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Aarogya Physio & Wellness — Kothrud, Pune",
+      "sections": [
+        {
+          "id": "navbar-1",
+          "type": "navbar",
+          "props": {
+            "brand": "Aarogya Physio",
+            "links": [
+              {
+                "label": "Treatments",
+                "href": "#features"
+              },
+              {
+                "label": "Doctors",
+                "href": "#team"
+              },
+              {
+                "label": "Fees",
+                "href": "#pricing"
+              },
+              {
+                "label": "FAQ",
+                "href": "#faq"
+              }
+            ],
+            "cta": {
+              "label": "Book appointment",
+              "href": "#contact"
+            },
+            "sticky": true
+          }
+        },
+        {
+          "id": "hero-1",
+          "type": "hero-split",
+          "props": {
+            "eyebrow": "Physiotherapy clinic · Kothrud, Pune",
+            "headline": "Move without pain again — with care that's personal.",
+            "subheadline": "Evidence-based physiotherapy for back pain, sports injuries, post-surgery rehab and senior mobility. Clinic and home visits across Pune.",
+            "bullets": [
+              "Same-day appointments available",
+              "Experienced, IAP-registered physiotherapists",
+              "Home visits within 8 km"
+            ],
+            "primaryCta": {
+              "label": "Book an appointment",
+              "href": "#contact"
+            },
+            "secondaryCta": {
+              "label": "WhatsApp us",
+              "href": "#contact"
+            },
+            "image": {
+              "src": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=1200&h=1400&q=75&auto=format&fit=crop",
+              "alt": "Woman doing a guided core exercise"
+            },
+            "imageSide": "right",
+            "badge": "4.9 ★ · 900+ Google reviews"
+          }
+        },
+        {
+          "id": "stats-1",
+          "type": "stats",
+          "props": {
+            "title": "",
+            "tinted": true,
+            "items": [
+              {
+                "value": 12,
+                "prefix": "",
+                "suffix": "+ yrs",
+                "label": "In practice"
+              },
+              {
+                "value": 15000,
+                "prefix": "",
+                "suffix": "+",
+                "label": "Patients treated"
+              },
+              {
+                "value": 6,
+                "prefix": "",
+                "suffix": "",
+                "label": "Specialists"
+              },
+              {
+                "value": 96,
+                "prefix": "",
+                "suffix": "%",
+                "label": "Would recommend"
+              }
+            ]
+          }
+        },
+        {
+          "id": "features-1",
+          "type": "features-grid",
+          "props": {
+            "eyebrow": "Treatments",
+            "title": "How we can help",
+            "subtitle": "Every plan starts with a thorough assessment — no cookie-cutter exercise sheets.",
+            "columns": 3,
+            "items": [
+              {
+                "icon": "shield",
+                "title": "Back & neck pain",
+                "description": "Manual therapy and posture correction for desk-job aches and slipped discs."
+              },
+              {
+                "icon": "bolt",
+                "title": "Sports injuries",
+                "description": "ACL, ankle and shoulder rehab to get runners and cricketers back on the field."
+              },
+              {
+                "icon": "heart",
+                "title": "Post-surgery rehab",
+                "description": "Structured recovery after knee replacement, spine and orthopaedic surgery."
+              },
+              {
+                "icon": "users",
+                "title": "Senior mobility",
+                "description": "Balance, strength and fall-prevention programmes for elders."
+              },
+              {
+                "icon": "leaf",
+                "title": "Women's health",
+                "description": "Pre- and post-natal physiotherapy and pelvic floor care."
+              },
+              {
+                "icon": "map",
+                "title": "Home visits",
+                "description": "The same quality of care at home for patients who can't travel."
+              }
+            ]
+          }
+        },
+        {
+          "id": "process-1",
+          "type": "process",
+          "props": {
+            "eyebrow": "Your first visit",
+            "title": "What to expect",
+            "subtitle": "Simple, unhurried and focused on you.",
+            "steps": [
+              {
+                "title": "Assessment",
+                "description": "A 45-minute consultation to understand your pain, history and goals.",
+                "meta": "Visit 1"
+              },
+              {
+                "title": "Personal plan",
+                "description": "A clear treatment plan with the number of sessions and home exercises.",
+                "meta": "Same day"
+              },
+              {
+                "title": "Treatment & progress",
+                "description": "Hands-on sessions with progress checks every week.",
+                "meta": "2–6 weeks"
+              }
+            ]
+          }
+        },
+        {
+          "id": "team-1",
+          "type": "team",
+          "props": {
+            "eyebrow": "Our team",
+            "title": "Meet your physiotherapists",
+            "subtitle": "",
+            "members": [
+              {
+                "name": "Dr. Kunal Joshi, PT",
+                "role": "Founder · Orthopaedic Physio",
+                "photo": "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&h=750&q=75&auto=format&fit=crop",
+                "bio": "MPT (Ortho), 12 years of practice. Specialises in spine and knee rehab."
+              },
+              {
+                "name": "Dr. Sneha Kulkarni, PT",
+                "role": "Sports Physiotherapist",
+                "photo": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600&h=750&q=75&auto=format&fit=crop",
+                "bio": "Worked with state-level athletes. Loves getting runners back on the road."
+              },
+              {
+                "name": "Dr. Anjali Deshpande, PT",
+                "role": "Women's Health",
+                "photo": "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=600&h=750&q=75&auto=format&fit=crop",
+                "bio": "Certified in pre/post-natal and pelvic floor physiotherapy."
+              },
+              {
+                "name": "Dr. Imran Shaikh, PT",
+                "role": "Neuro & Geriatric Rehab",
+                "photo": "https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=600&h=750&q=75&auto=format&fit=crop",
+                "bio": "Helps stroke survivors and seniors regain independence."
+              }
+            ]
+          }
+        },
+        {
+          "id": "pricing-1",
+          "type": "pricing",
+          "props": {
+            "eyebrow": "Fees",
+            "title": "Transparent pricing",
+            "subtitle": "No hidden charges. Insurance receipts provided on request.",
+            "currency": "₹",
+            "billingToggle": false,
+            "yearlyNote": "",
+            "plans": [
+              {
+                "name": "Consultation",
+                "priceMonthly": 600,
+                "priceYearly": 600,
+                "period": "/visit",
+                "description": "First assessment with a senior physio.",
+                "features": [
+                  "45-minute assessment",
+                  "Diagnosis & treatment plan",
+                  "Home exercise sheet"
+                ],
+                "cta": {
+                  "label": "Book consultation",
+                  "href": "#contact"
+                },
+                "highlighted": false
+              },
+              {
+                "name": "10-session pack",
+                "priceMonthly": 5500,
+                "priceYearly": 5500,
+                "period": "/pack",
+                "description": "Best value for a full recovery plan.",
+                "features": [
+                  "10 x 40-minute sessions",
+                  "Weekly progress review",
+                  "WhatsApp support",
+                  "Valid for 60 days"
+                ],
+                "cta": {
+                  "label": "Choose pack",
+                  "href": "#contact"
+                },
+                "highlighted": true
+              },
+              {
+                "name": "Home visit",
+                "priceMonthly": 900,
+                "priceYearly": 900,
+                "period": "/session",
+                "description": "Treatment at your home within 8 km.",
+                "features": [
+                  "Portable equipment",
+                  "Ideal for post-surgery",
+                  "Flexible timings"
+                ],
+                "cta": {
+                  "label": "Request visit",
+                  "href": "#contact"
+                },
+                "highlighted": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "testimonials-1",
+          "type": "testimonials",
+          "props": {
+            "eyebrow": "Patient stories",
+            "title": "Back to doing what they love",
+            "subtitle": "",
+            "items": [
+              {
+                "quote": "After my knee replacement I couldn't climb stairs. Eight weeks with Dr. Joshi and I'm walking to the temple every morning.",
+                "name": "Sudha Patwardhan",
+                "role": "68, Kothrud",
+                "avatar": "",
+                "rating": 5
+              },
+              {
+                "quote": "Tore my ACL playing football. Sneha ma'am's rehab plan had me running again in five months.",
+                "name": "Aniket More",
+                "role": "24, Software engineer",
+                "avatar": "",
+                "rating": 5
+              },
+              {
+                "quote": "Years of desk-job back pain gone in six sessions. They explain everything clearly.",
+                "name": "Ritu Agarwal",
+                "role": "35, Baner",
+                "avatar": "",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "faq-1",
+          "type": "faq",
+          "props": {
+            "eyebrow": "FAQ",
+            "title": "Common questions",
+            "subtitle": "Call or WhatsApp us if you don't see your question here.",
+            "items": [
+              {
+                "question": "Do I need a doctor's referral?",
+                "answer": "No. You can book directly. If you have reports or X-rays, please bring them to your first visit."
+              },
+              {
+                "question": "How many sessions will I need?",
+                "answer": "It depends on your condition. Most patients feel a difference in 3–4 sessions; we'll give you a clear estimate after the assessment."
+              },
+              {
+                "question": "Is physiotherapy covered by insurance?",
+                "answer": "Many health policies cover physiotherapy after hospitalisation. We provide detailed receipts for your claim."
+              },
+              {
+                "question": "What should I wear?",
+                "answer": "Loose, comfortable clothing that lets us access the area being treated."
+              }
+            ]
+          }
+        },
+        {
+          "id": "contact-1",
+          "type": "contact",
+          "props": {
+            "eyebrow": "Book a visit",
+            "title": "Book your appointment",
+            "subtitle": "Share your details and we'll call back within 30 minutes during clinic hours.",
+            "email": "care@aarogyaphysio.in",
+            "phone": "+91 98220 45678",
+            "address": "Shop 3, Shivtirth Nagar, Paud Road, Kothrud, Pune 411038",
+            "hours": "Mon–Sat 8am–8pm · Sun 9am–1pm",
+            "submitLabel": "Request appointment",
+            "successMessage": "Thank you! Our team will call you shortly to confirm.",
+            "showServiceField": true,
+            "services": [
+              "Back / neck pain",
+              "Sports injury",
+              "Post-surgery rehab",
+              "Senior mobility",
+              "Home visit"
+            ]
+          }
+        },
+        {
+          "id": "footer-1",
+          "type": "footer",
+          "props": {
+            "brand": "Aarogya Physio",
+            "tagline": "Physiotherapy and wellness in Kothrud, Pune. Clinic and home visits.",
+            "columns": [
+              {
+                "title": "Treatments",
+                "links": [
+                  {
+                    "label": "Back pain",
+                    "href": "#features"
+                  },
+                  {
+                    "label": "Sports injuries",
+                    "href": "#features"
+                  },
+                  {
+                    "label": "Post-surgery",
+                    "href": "#features"
+                  }
+                ]
+              },
+              {
+                "title": "Clinic",
+                "links": [
+                  {
+                    "label": "Our team",
+                    "href": "#team"
+                  },
+                  {
+                    "label": "Fees",
+                    "href": "#pricing"
+                  },
+                  {
+                    "label": "FAQ",
+                    "href": "#faq"
+                  }
+                ]
+              },
+              {
+                "title": "Contact",
+                "links": [
+                  {
+                    "label": "+91 98220 45678",
+                    "href": "tel:+919822045678"
+                  },
+                  {
+                    "label": "Get directions",
+                    "href": "#contact"
+                  }
+                ]
+              }
+            ],
+            "socials": [
+              {
+                "platform": "whatsapp",
+                "href": "#"
+              },
+              {
+                "platform": "instagram",
+                "href": "#"
+              },
+              {
+                "platform": "facebook",
+                "href": "#"
+              }
+            ],
+            "copyright": "© 2026 Aarogya Physio & Wellness"
+          }
+        }
+      ]
+    }
+  ]
+}

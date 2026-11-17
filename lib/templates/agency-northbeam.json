@@ -1,0 +1,404 @@
+{
+  "name": "Northbeam Studio",
+  "description": "Independent brand and product design studio.",
+  "theme": {
+    "palette": {
+      "primary": "#C5F23C",
+      "accent": "#7B61FF",
+      "background": "#0B0B10",
+      "surface": "#14141C",
+      "text": "#F3F3F7",
+      "muted": "#9C9CB2",
+      "border": "#272734"
+    },
+    "fontPair": "modern",
+    "radius": "xl",
+    "style": "glass"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Northbeam — brand & product design studio",
+      "sections": [
+        {
+          "id": "navbar-1",
+          "type": "navbar",
+          "props": {
+            "brand": "Northbeam",
+            "links": [
+              {
+                "label": "Work",
+                "href": "#gallery"
+              },
+              {
+                "label": "Services",
+                "href": "#features"
+              },
+              {
+                "label": "Process",
+                "href": "#process"
+              },
+              {
+                "label": "Studio",
+                "href": "#team"
+              }
+            ],
+            "cta": {
+              "label": "Start a project",
+              "href": "#contact"
+            },
+            "sticky": true
+          }
+        },
+        {
+          "id": "hero-1",
+          "type": "hero-centered",
+          "props": {
+            "eyebrow": "Booking projects for Q1 2027",
+            "headline": "We design brands people remember and products people love.",
+            "subheadline": "Northbeam is a 9-person studio pairing strategy, identity and interface design for ambitious startups and the companies that want to move like them.",
+            "primaryCta": {
+              "label": "See selected work",
+              "href": "#gallery"
+            },
+            "secondaryCta": {
+              "label": "Our process",
+              "href": "#process"
+            },
+            "image": {
+              "src": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=1800&h=1000&q=75&auto=format&fit=crop",
+              "alt": "Abstract flowing gradient artwork"
+            }
+          }
+        },
+        {
+          "id": "logos-1",
+          "type": "logo-strip",
+          "props": {
+            "title": "Partners we've shipped with",
+            "logos": [
+              "Halcyon",
+              "Quanta Bank",
+              "Fable & Co",
+              "Arcadia Health",
+              "Orbit Mobility",
+              "Lumen"
+            ],
+            "marquee": true
+          }
+        },
+        {
+          "id": "features-1",
+          "type": "features-grid",
+          "props": {
+            "eyebrow": "Services",
+            "title": "One team, from first idea to final pixel",
+            "subtitle": "",
+            "columns": 2,
+            "items": [
+              {
+                "icon": "sparkles",
+                "title": "Brand identity",
+                "description": "Naming, positioning, logo systems and guidelines that scale from app icon to billboard."
+              },
+              {
+                "icon": "layers",
+                "title": "Product design",
+                "description": "Research-led UX and polished UI for web and mobile apps, ready for engineering."
+              },
+              {
+                "icon": "code",
+                "title": "Websites",
+                "description": "Fast, animated marketing sites built on modern stacks your team can edit."
+              },
+              {
+                "icon": "rocket",
+                "title": "Launch campaigns",
+                "description": "Motion, social and launch assets that make day one land."
+              }
+            ]
+          }
+        },
+        {
+          "id": "gallery-1",
+          "type": "gallery",
+          "props": {
+            "eyebrow": "Selected work",
+            "title": "Recent projects",
+            "subtitle": "A few things we're proud of from the past year.",
+            "layout": "grid",
+            "images": [
+              {
+                "src": "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=900&h=900&q=75&auto=format&fit=crop",
+                "alt": "Creative tools identity system"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&h=900&q=75&auto=format&fit=crop",
+                "alt": "Architecture firm website"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1550439062-609e1531270e?w=900&h=900&q=75&auto=format&fit=crop",
+                "alt": "Developer platform dashboard"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=900&h=900&q=75&auto=format&fit=crop",
+                "alt": "Publishing house rebrand"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=900&h=900&q=75&auto=format&fit=crop",
+                "alt": "Coworking space wayfinding"
+              },
+              {
+                "src": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=900&h=900&q=75&auto=format&fit=crop",
+                "alt": "Fintech mobile app"
+              }
+            ]
+          }
+        },
+        {
+          "id": "process-1",
+          "type": "process",
+          "props": {
+            "eyebrow": "Process",
+            "title": "How a project with us runs",
+            "subtitle": "Clear phases, weekly demos and no disappearing acts.",
+            "steps": [
+              {
+                "title": "Discovery sprint",
+                "description": "Workshops, interviews and an audit to agree on what success looks like.",
+                "meta": "Week 1–2"
+              },
+              {
+                "title": "Direction & concepts",
+                "description": "Two or three distinct directions, presented with the reasoning behind them.",
+                "meta": "Week 3–4"
+              },
+              {
+                "title": "Design & build",
+                "description": "We refine the chosen route and build it out with your team, demoing every Friday.",
+                "meta": "Week 5–10"
+              },
+              {
+                "title": "Launch & support",
+                "description": "Handover, documentation and 30 days of support after go-live.",
+                "meta": "Ongoing"
+              }
+            ]
+          }
+        },
+        {
+          "id": "stats-1",
+          "type": "stats",
+          "props": {
+            "title": "",
+            "tinted": false,
+            "items": [
+              {
+                "value": 120,
+                "prefix": "",
+                "suffix": "+",
+                "label": "Projects shipped"
+              },
+              {
+                "value": 14,
+                "prefix": "",
+                "suffix": "",
+                "label": "Design awards"
+              },
+              {
+                "value": 9,
+                "prefix": "",
+                "suffix": "",
+                "label": "Countries"
+              },
+              {
+                "value": 92,
+                "prefix": "",
+                "suffix": "%",
+                "label": "Repeat clients"
+              }
+            ]
+          }
+        },
+        {
+          "id": "team-1",
+          "type": "team",
+          "props": {
+            "eyebrow": "Studio",
+            "title": "Small team, senior hands",
+            "subtitle": "Everyone you meet in the pitch works on your project.",
+            "members": [
+              {
+                "name": "Isha Menon",
+                "role": "Founder & Creative Director",
+                "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=600&h=750&q=75&auto=format&fit=crop",
+                "bio": "Previously led brand at two unicorns. Believes in fewer, better ideas."
+              },
+              {
+                "name": "Marcus Lee",
+                "role": "Head of Product Design",
+                "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=600&h=750&q=75&auto=format&fit=crop",
+                "bio": "Fifteen years designing products used by millions."
+              },
+              {
+                "name": "Zara Qureshi",
+                "role": "Brand Designer",
+                "photo": "https://images.unsplash.com/photo-1607746882042-944635dfe10e?w=600&h=750&q=75&auto=format&fit=crop",
+                "bio": "Type nerd, illustrator and the studio's resident colour expert."
+              },
+              {
+                "name": "Dev Patel",
+                "role": "Creative Developer",
+                "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=750&q=75&auto=format&fit=crop",
+                "bio": "Turns static comps into motion that feels alive."
+              }
+            ]
+          }
+        },
+        {
+          "id": "testimonials-1",
+          "type": "testimonials",
+          "props": {
+            "eyebrow": "Clients",
+            "title": "What it's like to work with us",
+            "subtitle": "",
+            "items": [
+              {
+                "quote": "Northbeam understood our business faster than our own board did. The new brand doubled inbound demos.",
+                "name": "Sanjana Rao",
+                "role": "CMO, Quanta Bank",
+                "avatar": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=160&h=160&q=75&auto=format&fit=crop",
+                "rating": 5
+              },
+              {
+                "quote": "Weekly demos meant zero surprises. The app shipped on time and our ratings jumped to 4.7.",
+                "name": "Tom Hartley",
+                "role": "VP Product, Orbit Mobility",
+                "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=160&h=160&q=75&auto=format&fit=crop",
+                "rating": 5
+              },
+              {
+                "quote": "Rare mix of taste and rigour. They pushed back when it mattered and it made the work better.",
+                "name": "Leila Haddad",
+                "role": "Founder, Fable & Co",
+                "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=160&h=160&q=75&auto=format&fit=crop",
+                "rating": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "cta-1",
+          "type": "cta-banner",
+          "props": {
+            "title": "Have something worth building?",
+            "subtitle": "Tell us about it. We reply to every enquiry within two working days.",
+            "primaryCta": {
+              "label": "Start a project",
+              "href": "#contact"
+            },
+            "secondaryCta": {
+              "label": "hello@northbeam.studio",
+              "href": "mailto:hello@northbeam.studio"
+            },
+            "variant": "solid"
+          }
+        },
+        {
+          "id": "contact-1",
+          "type": "contact",
+          "props": {
+            "eyebrow": "Contact",
+            "title": "Let's make something great",
+            "subtitle": "Share a few details and we'll set up a 30-minute intro call.",
+            "email": "hello@northbeam.studio",
+            "phone": "+91 99000 12345",
+            "address": "Studio 4, Bandra West, Mumbai 400050",
+            "hours": "Mon–Fri, 10:00–19:00 IST",
+            "submitLabel": "Send enquiry",
+            "successMessage": "Thanks — we'll be in touch within two working days.",
+            "showServiceField": true,
+            "services": [
+              "Brand identity",
+              "Product design",
+              "Website",
+              "Not sure yet"
+            ]
+          }
+        },
+        {
+          "id": "footer-1",
+          "type": "footer",
+          "props": {
+            "brand": "Northbeam",
+            "tagline": "Brand and product design for ambitious teams.",
+            "columns": [
+              {
+                "title": "Studio",
+                "links": [
+                  {
+                    "label": "Work",
+                    "href": "#gallery"
+                  },
+                  {
+                    "label": "Services",
+                    "href": "#features"
+                  },
+                  {
+                    "label": "Team",
+                    "href": "#team"
+                  }
+                ]
+              },
+              {
+                "title": "Connect",
+                "links": [
+                  {
+                    "label": "Instagram",
+                    "href": "#"
+                  },
+                  {
+                    "label": "Dribbble",
+                    "href": "#"
+                  },
+                  {
+                    "label": "LinkedIn",
+                    "href": "#"
+                  }
+                ]
+              },
+              {
+                "title": "Contact",
+                "links": [
+                  {
+                    "label": "hello@northbeam.studio",
+                    "href": "mailto:hello@northbeam.studio"
+                  },
+                  {
+                    "label": "Careers",
+                    "href": "#"
+                  }
+                ]
+              }
+            ],
+            "socials": [
+              {
+                "platform": "instagram",
+                "href": "#"
+              },
+              {
+                "platform": "linkedin",
+                "href": "#"
+              },
+              {
+                "platform": "x",
+                "href": "#"
+              }
+            ],
+            "copyright": "© 2026 Northbeam Studio LLP"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fallback theme vars (app chrome / dashboard). Sites override on .dc-site */
+:root {
+  --c-primary: 79 70 229;
+  --c-primary-fg: 255 255 255;
+  --c-accent: 236 72 153;
+  --c-accent-fg: 255 255 255;
+  --c-bg: 255 255 255;
+  --c-surface: 246 246 251;
+  --c-text: 15 16 32;
+  --c-muted: 91 93 114;
+  --c-border: 228 228 238;
+  --radius: 14px;
+  --font-heading: "Inter";
+  --font-body: "Inter";
+}
+
+html { scroll-behavior: smooth; }
+body { -webkit-font-smoothing: antialiased; }
+
+@layer components {
+  .dc-site {
+    font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+    background: rgb(var(--c-bg));
+    color: rgb(var(--c-text));
+    overflow-x: clip;
+  }
+  .dc-site h1, .dc-site h2, .dc-site h3, .dc-site h4 {
+    font-family: var(--font-heading), ui-sans-serif, system-ui, sans-serif;
+  }
+  .dc-eyebrow {
+    @apply inline-block text-[13px] font-semibold uppercase tracking-[0.16em] text-primary;
+  }
+  .dc-btn { border-radius: var(--radius); }
+  [data-radius="xl"] .dc-btn, [data-radius="lg"] .dc-btn { border-radius: 999px; }
+
+  /* Cards: appearance switches with theme.style */
+  .dc-card {
+    background: rgb(var(--c-bg));
+    border: 1px solid rgb(var(--c-border));
+    border-radius: calc(var(--radius) * 1.3);
+    transition: transform .3s cubic-bezier(.22,1,.36,1), box-shadow .3s, border-color .3s;
+  }
+  [data-style="soft"] .dc-card {
+    border-color: rgb(var(--c-border) / .7);
+    box-shadow: 0 1px 2px rgb(15 16 32 / .04), 0 8px 24px -12px rgb(15 16 32 / .12);
+  }
+  [data-style="soft"] .dc-card-hover:hover { transform: translateY(-4px); box-shadow: 0 2px 4px rgb(15 16 32 / .05), 0 22px 40px -18px rgb(15 16 32 / .25); }
+  [data-style="minimal"] .dc-card { box-shadow: none; }
+  [data-style="minimal"] .dc-card-hover:hover { border-color: rgb(var(--c-text) / .35); }
+  [data-style="bold"] .dc-card { border: 2px solid rgb(var(--c-text)); box-shadow: 5px 5px 0 rgb(var(--c-text)); }
+  [data-style="bold"] .dc-card-hover:hover { transform: translate(-2px,-2px); box-shadow: 8px 8px 0 rgb(var(--c-primary)); }
+  [data-style="bold"] .dc-btn-primary { box-shadow: 3px 3px 0 rgb(var(--c-text)); border: 2px solid rgb(var(--c-text)); }
+  [data-style="glass"] .dc-card {
+    background: rgb(var(--c-surface) / .55);
+    border-color: rgb(var(--c-text) / .1);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+  }
+  [data-style="glass"] .dc-card-hover:hover { transform: translateY(-4px); border-color: rgb(var(--c-primary) / .5); box-shadow: 0 20px 50px -20px rgb(var(--c-primary) / .45); }
+
+  .dc-gradient-text {
+    background-image: linear-gradient(100deg, rgb(var(--c-primary)), rgb(var(--c-accent)), rgb(var(--c-primary)));
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: dc-shine 6s linear infinite;
+  }
+  .dc-grid-bg {
+    background-image: linear-gradient(rgb(var(--c-text) / .06) 1px, transparent 1px), linear-gradient(90deg, rgb(var(--c-text) / .06) 1px, transparent 1px);
+    background-size: 56px 56px;
+  }
+  .dc-input {
+    @apply w-full border border-line bg-bg px-4 py-3 text-[15px] text-ink outline-none transition placeholder:text-muted/70 focus:border-primary focus:ring-4 focus:ring-primary/15;
+    border-radius: var(--radius);
+  }
+}
+
+@keyframes dc-shine { to { background-position: 200% center; } }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+}
